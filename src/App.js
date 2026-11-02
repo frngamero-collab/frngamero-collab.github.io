@@ -17,7 +17,7 @@ function App() {
 	   <Encabezado/>
 		<Routes>
 			<Route path="/PiePagina" element={<PiePagina />} />
-	        <Route path="https://frngamero-collab.github.io/" element={<Inicio />} />
+ 			<Route path="/" element={<Inicio />} />
 			<Route path="/Inicio" element={<Inicio />} /> 
 			<Route path="/Formacion" element={<Formacion />} />    
 			<Route path="/Contacto" element={<Contacto />} />
