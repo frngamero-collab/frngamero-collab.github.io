@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirigiendo</title>
+    <script>
+      (function () {
+        var redirect = window.location.pathname + window.location.search + window.location.hash;
+        window.location.replace("/?redirect=" + encodeURIComponent(redirect));
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo a la página solicitada...</p>
+  </body>
+</html>
