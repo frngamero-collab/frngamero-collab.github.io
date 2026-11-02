@@ -1,0 +1,5 @@
+import React from 'react';
+function Inicio (){
+	<title>Pagina Para Programacion Web II</title>
+	<h3>Este texto es para probar el funcionamient</h3>
+}
